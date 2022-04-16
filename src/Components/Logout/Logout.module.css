@@ -1,0 +1,17 @@
+.logout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.logout > h1 {
+  margin-bottom: 1rem;
+}
+.logout > h1 > span {
+  color: salmon;
+}
+.logoutBtn {
+  padding: 0.8rem;
+  width: 15rem;
+}

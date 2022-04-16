@@ -1,0 +1,29 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.login > h1 {
+  margin-bottom: 2rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30rem;
+}
+.form > input {
+  font-family: inherit;
+  width: 100%;
+  padding: 1.2rem;
+  border: 0.1rem solid var(--black);
+  border-radius: 0.2rem;
+  margin-bottom: 1rem;
+}
+.loginBtn {
+  width: 100%;
+  padding: 1rem;
+}
